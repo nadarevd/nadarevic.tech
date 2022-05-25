@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+# Denis' Portfolio 
+Ever since the pandemic began, I've worked on my web development skills by working on side projects and at work. I am proud to say that I've gained quite a few skills over this time, including how to prototype, optimize, and efficiently develop applications. 
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This portfolio aims to showcase some work that I will add onto over time. 
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Tools
+- TailwindCSS
+- Vue 3
+- Vite

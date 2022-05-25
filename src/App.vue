@@ -1,7 +1,6 @@
 <template>
-  <Navbar></Navbar>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <Navbar class="fixed w-full z-50"></Navbar>
+  <div class="absolute mt-12">lol</div>
 </template>
 
 <script>
@@ -21,16 +20,13 @@
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 
-body {
-  background-color: #191D32;
-}
 </style>
 
 
