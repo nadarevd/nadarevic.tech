@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        slateGray: '#313132'
+        slateGray: '#313132',
+        textBlack: '#1d1d1f',
+        textGray: '#6e6e73'
       }
     },
   },

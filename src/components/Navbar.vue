@@ -1,10 +1,10 @@
 <template>
-    <header class="bg-slateGray py-2 ">
+    <header class="bg-slateGray py-3 ">
         <nav class="max-w-7xl mx-auto lg:px-8" aria-label="Top">
             <div class="w-full flex items-center justify-center">
                 <div class="flex font-light items-center justify-center ">
                     <a href="#" class="text-[#d5d5d6] mx-6 hidden lg:block">
-                        <img src="../assets/logo.svg" class="w-5 h-5" alt="">
+                        <img src="../assets/logo.svg" class="w-4 h-4" alt="">
                     </a>
                     <div class="hidden lg:flex items-center">
                         <a href="#" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6" key="Solutions">Home</a>
@@ -14,13 +14,13 @@
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="#d5d5d6" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
                             </svg>
-                            <span class='tooltip rounded p-1 font-light text-xs bg-gray-100 text-gray-500 mt-3 -ml-4'>Contact Me</span>
+                            <span class='tooltip rounded p-1  text-xs bg-gray-100 text-gray-500 mt-3 -ml-4'>Contact Me</span>
                         </a>
                         <a href="https://ko-fi.com/nadarevic" class="has-tooltip inline-block px-4 border border-transparent rounded-md text-base text-white mx-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="#d5d5d6" stroke-width="2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="#13c3ff" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                             </svg>
-                            <span class='tooltip rounded p-1 font-light text-xs bg-gray-100 text-gray-500 mt-3 -ml-4'>Buy me a Coffee</span>
+                            <span class='tooltip rounded p-1  text-xs bg-gray-100 text-[#13c3ff] mt-3 -ml-4'>Buy me a Coffee</span>
                         </a>
                     </div>
                 </div>
