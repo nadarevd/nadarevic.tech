@@ -31,9 +31,8 @@
         <div class="grid grid-cols-1 ">
           <div class="rounded-[48px] text-left bg-white">
             <div class="w-full flex flex-col justify-between h-full">
-
               <div class="relative overflow-x-auto  rounded-[48px] text-left">
-                <table class="w-full text-sm text-left text-gray-500 ">
+                <table class="w-full text-sm text-left text-gray-500 overflow-hidden">
                   <thead class="text-xs text-gray-700 uppercase bg-gray-50">
                     <tr>
                       <th scope="col" class="px-12 pt-6 pb-3">Time</th>
@@ -41,52 +40,73 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr class="bg-white border-b ">
+                    <tr class="bg-white border-b hover:-translate-y-2 hover:scale-105 hover:shadow-md  transition-all">
                       <th scope="row" class=" px-12 py-4 font-medium text-gray-900  whitespace-nowrap">2020-Present</th>
                       <td class="px-6 py-4 flex flex-col has-tooltip">
-                        <h1>Loadly</h1>
+                        <h1 class="text-textBlack font-semibold">Loadly</h1>
                         <p>Junior Developer</p>
-                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-lg ml-32'>
-                          <a href="https://loadly.ca">Check out their landing page that I made!</a>
+                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-lg ml-36 -mt-2'>
+                          Check out their <a href="https://www.loadly.ca/" class="text-blue-500 hover:underline">landing page</a> that I made!
                         </span>
                       </td>
                     </tr>
-                    <tr class="bg-white border-b ">
+                    <tr class="bg-white border-b hover:-translate-y-2 hover:scale-105 hover:shadow-md transition-all">
                       <th scope="row" class="px-12 py-4 font-medium text-gray-900  whitespace-nowrap">2021-Present</th>
                       <td class="px-6 py-4 flex flex-col has-tooltip">
-                        <h1>Priority Ships</h1>
+                        <h1 class="text-textBlack font-semibold">Priority Ships</h1>
                         <p>Logistics Broker</p>
-                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-lg ml-32 -mt-2'>
+                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-lg ml-32 -mt-4'>
                           Facilitated relationships between carriers and shippers throughout each shipment step.
                         </span>
                       </td>
 
                     </tr>
-                    <tr class="bg-white border-b">
+                    <tr class="bg-white border-b hover:-translate-y-2 hover:scale-105 hover:shadow-md transition-all">
                       <th scope="row" class="px-12 py-4 font-medium text-gray-900 ewhitespace-nowrap">September–2020</th>
-                      <td class="px-6 py-4 flex flex-col has-tooltip">
-                        <h1>BorderHacks Hackathon</h1>
-                        <p>Lead Organizer & Workshop Facilitator</p>
+                      <td class="has-tooltip px-6 py-4 flex flex-col has-tooltip">
+                        <h1 class="text-textBlack font-semibold">BorderHacks Hackathon</h1>
+                        <p>Lead Organizer</p>
+                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-lg ml-44 -mt-4'>
+                         Organized a digital hackathon sponsored by 
+                         <a href="https://www.investwindsoressex.com/" class="text-blue-500 hover:underline">IWE</a>, 
+                         <a href="https://www.citywindsor.ca/" class="text-blue-500 hover:underline">the City of Windsor</a>, 
+                         and many more.
+                        </span>
                       </td>
                     </tr>
-                    <tr class="bg-white border-b">
+                    <tr class="bg-white border-b hover:-translate-y-2 hover:scale-105 hover:shadow-md transition-all">
                       <th scope="row" class="px-12 py-4 font-medium text-gray-900 ewhitespace-nowrap">March–2020</th>
-                      <td class="px-6 py-4 flex flex-col has-tooltip">
-                        <h1>WinHacks Hackathon</h1>
-                        <p>Lead Organizer & Workshop Facilitator</p>
+                      <td class="has-tooltip px-6 py-4 flex flex-col has-tooltip">
+                        <h1 class="text-textBlack font-semibold">WinHacks Hackathon</h1>
+                        <p>Lead Organizer</p>
+                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-lg ml-44 -mt-2'>
+                         Organized UWindsor's first digital hackathon with huge success.
+                        </span>
                       </td>
                     </tr>
-                    <tr class="bg-white ">
+                    <tr class="bg-white border-b hover:-translate-y-2 hover:scale-105 hover:shadow-md transition-all">
                       <th scope="row" class="px-12 py-4 font-medium text-gray-900 ewhitespace-nowrap">2016–2018</th>
-                      <td class="px-6 py-4 flex flex-col">
-                        <h1>University of Windsor</h1>
+                      <td class="has-tooltip px-6 py-4 flex flex-col">
+                        <h1 class="text-textBlack font-semibold">University of Windsor</h1>
                         <p>Research Assistant</p>
+                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-lg ml-44 -mt-4'>
+                         Worked closely with a professor to write a business analysis case study
+                        </span>
+                      </td>
+                    </tr>
+                    <tr class="bg-white hover:-translate-y-2 hover:scale-105 hover:shadow-md transition-all">
+                      <th scope="row" class="px-12 py-4 font-medium text-gray-900 ewhitespace-nowrap">2015–2020</th>
+                      <td class="has-tooltip px-6 py-4 flex flex-col">
+                        <h1 class="text-textBlack font-semibold">University of Windsor</h1>
+                        <p>Undergraduate</p>
+                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-lg ml-44 -mt-4'>
+                         Attended UWindsor for Business Administration & Computer Science
+                        </span>
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-
             </div>
           </div>
         </div>
