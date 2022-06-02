@@ -1,12 +1,12 @@
 <template>
     <div class="relative bg-[#f5f5f7]">
-        <div class="max-w-7xl mx-auto py-5 px-3 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto py-5 px-3 sm:px-6 lg:px-8 hidden md:block">
             <div class="pr-16 sm:text-center sm:px-16">
                 <div class="font-medium text-textGrey">
                     <span class="hidden md:inline font-bold mr-3">
                     Not for Sale!
                     </span>
-                    <span class="hidden md:inline-flex items-center flex-row">
+                    <span class="inline-flex items-center flex-row">
                         <p>I am currently working as a UX/UI Designer for </p>
                         <div class="inline-flex flex-row items-center space-x-1 mx-2">
                             <img src="../assets/loadly_icon.svg" class="w-4 h-4" alt="">
