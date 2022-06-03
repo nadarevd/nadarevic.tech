@@ -11,7 +11,7 @@
 <script>
   import { defineAsyncComponent } from 'vue';
   import Projects from './components/Projects.vue'
-import Hobbies from './components/Hobbies.vue'
+  import Hobbies from './components/Hobbies.vue'
   export default {
     components: {
       Navbar: defineAsyncComponent(() => import('./components/Navbar.vue')),
