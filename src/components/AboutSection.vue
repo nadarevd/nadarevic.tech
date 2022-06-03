@@ -21,6 +21,9 @@
           </div>
           <div class="px-8 py-12 lg:aspect-square aspect-auto rounded-[18px] text-left bg-white k">
             <div class="w-full sm:px-4 flex flex-col justify-between h-full">
+              <h1
+                  class=" bg-clip-text text-center bg-gradient-to-r from-[#ae54cb] to-[#3997d2] font-extrabold text-transparent text-3xl lg:text-4xl">
+                  Here's more info about Denis N</h1>
               <p class="break-words mt-3 text-md leading-6 text-textGray">
                 The 2020 pandemic was my opportunity to fulfill my passion, learning how to professionally develop
                 software while working with a logistics start-up to create industry-changing software. </p>
@@ -33,7 +36,7 @@
             <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 md:space-y-0">
               <!-- one -->
               <div class="flex flex-col text-textBlack md:w-auto text-center md:text-left">
-                <h1 class="text-lg">Experience in</h1>
+                <h1 class="text-lg">Experienced in</h1>
                 <div class="flex flex-col md:flex-row">
                   <h1 class="text-7xl font-semibold">5</h1>
                   <h1 class="md:text-3xl text-xl w-56 font-semibold ml-0 md:ml-2">Different programming languages.</h1>
@@ -41,7 +44,7 @@
               </div>
               <!-- two -->
               <div class="flex flex-col text-textBlack md:w-auto text-center md:text-left">
-                <h1 class="text-lg">Experience in</h1>
+                <h1 class="text-lg">Experienced in</h1>
                 <div class="flex flex-col md:flex-row">
                   <h1 class="text-7xl font-semibold">15</h1>
                   <h1 class="md:text-3xl text-xl w-56 font-semibold ml-0 md:ml-2">Powerful tools, softwares, and libraries.</h1>

@@ -13,8 +13,8 @@
                       <p class="mt-3 text-base text-textGray sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                         I’m a web developer interested in a wide range of fields.
                       </p>
-                      <button class="rounded-3xl bg-[#13c3ff] px-3 py-2 mt-6 flex items-center mx-auto lg:mx-0 space-x-3">
-                          <img src="../assets/kofi.png" alt="" class="w-6 h-6">
+                      <button class="rounded-3xl bg-[#13c3ff] ] px-3 py-2 mt-6 flex items-center mx-auto lg:mx-0 space-x-3 hover:scale-105 transition-all">
+                          <img src="../assets/kofi.png" alt="" class="w-7 h-7">
                           <a href="https://ko-fi.com/nadarevic" class="text-white">Buy me a Kofi</a>
                       </button>
                     </div>

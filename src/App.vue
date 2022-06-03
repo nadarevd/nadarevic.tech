@@ -5,33 +5,25 @@
   <div class="bg-[#ebebec]"><AboutSection class="relative w-full" v-motion-slide-bottom></AboutSection></div>
   <div class="bg-[#F5F5F5]"><Projects v-motion :initial="{opacity: 0,y: 100,}" :visible="{opacity: 1,y: 0, transition: { duration: 700 } }" ></Projects></div>
   <div class="bg-[#F5F5F5]"><Hobbies v-motion :initial="{opacity: 0,y: 100,}" :visible="{opacity: 1,y: 0, transition: { duration: 700 } }" ></Hobbies></div>
+  <Footer></Footer>
 </template>
 
 <script>
-  import Navbar from './components/Navbar.vue'
-  import HeroSection from './components/HeroSection.vue'
-import HeaderCenter from './components/HeaderCenter.vue'
-import AboutSection from './components/AboutSection.vue'
-import Projects from './components/Projects.vue'
+  import { defineAsyncComponent } from 'vue';
+  import Projects from './components/Projects.vue'
 import Hobbies from './components/Hobbies.vue'
   export default {
-    data() {
-      return {
-
-      }
-    },
     components: {
-    Navbar,
-    HeroSection,
-    HeaderCenter,
-    AboutSection,
-    Projects,
-    Hobbies
-}
+      Navbar: defineAsyncComponent(() => import('./components/Navbar.vue')),
+      HeroSection: defineAsyncComponent(() => import('./components/HeroSection.vue')),
+      HeaderCenter: defineAsyncComponent(() => import('./components/HeaderCenter.vue')),
+      AboutSection: defineAsyncComponent(() => import('./components/AboutSection.vue')),
+      Projects,
+      Hobbies,
+      Footer: defineAsyncComponent(() => import('./components/Footer.vue'))
+    }
   }
 </script>
-
-
 <style>
 
 img {
