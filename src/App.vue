@@ -5,7 +5,7 @@
   <div class="bg-[#ebebec]"><AboutSection class="relative w-full" v-motion-slide-bottom></AboutSection></div>
   <div class="bg-[#F5F5F5]"><Projects v-motion :initial="{opacity: 0,y: 100,}" :visible="{opacity: 1,y: 0, transition: { duration: 700 } }" ></Projects></div>
   <div class="bg-[#F5F5F5]"><Hobbies v-motion :initial="{opacity: 0,y: 100,}" :visible="{opacity: 1,y: 0, transition: { duration: 700 } }" ></Hobbies></div>
-  <Footer></Footer>
+  <Footer v-motion :initial="{opacity: 0,y: 100,}" :visible="{opacity: 1,y: 0, transition: { duration: 700 } }"></Footer>
 </template>
 
 <script>

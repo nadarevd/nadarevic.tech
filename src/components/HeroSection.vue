@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-7xl mx-auto  relative w-full py-24">
+    <div class="max-w-7xl mx-auto  relative w-full py-56 ">
         <div class="max-w-7xl mx-auto px-12">
             <main class="">
               <div class="mx-auto max-w-7xl">
