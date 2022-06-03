@@ -10,7 +10,7 @@
             <slide class="select-none first:ml-[50%]  mx-3 flex flex-col !w-64" v-for="card in items" :key="card">
                 <div class=" rounded-xl px-4 py-6 xl:w-64 lg:w-56 h-96 text-left bg-white flex flex-col justify-between overflow-hidden">
                     <div class="">
-                        <h1 class="text-xl break-words  text-textBlack font-bold">{{ card.title }}</h1>
+                        <a :href="card.link" target="_blank" class="text-xl hover:underline break-words  text-textBlack font-bold">{{ card.title }}</a>
                         <p class="text-normal break-words text-textBlack ">{{ card.desc }}</p>
                     </div>
                     <img :src="'src/assets/' + card.img"  alt="" class=" relative block select-none" :class="['scale-['+card.scale+']', 'left-'+card.position.x, 'top-'+card.position.y]">
@@ -22,7 +22,7 @@
             <slide class="select-none first:ml-[50%]  mx-3 flex flex-col !w-64" v-for="card in items" :key="card">
                 <div class=" rounded-xl px-4 py-6 xl:w-64 lg:w-56 h-96 text-left bg-white flex flex-col justify-between overflow-hidden">
                     <div class="">
-                        <h1 class="text-xl break-words  text-textBlack font-bold">{{ card.title }}</h1>
+                        <a :href="card.link" target="_blank"  class="text-xl hover:underline break-words  text-textBlack font-bold">{{ card.title }}</a>
                         <p class="text-normal break-words text-textBlack ">{{ card.desc }}</p>
                     </div>
                     <img :src="'src/assets/' + card.img"  alt="" class=" relative block select-none" :class="['!scale-['+card.scale+']', 'left-'+card.position.x, 'top-'+card.position.y]">
@@ -30,11 +30,15 @@
             </slide>
         </carousel>
 
-        <div class="grid xl:hidden grid-cols-2 sm:grid-cols-4 mt-12 gap-4 px-4 sm:px-12">
-            <div v-for="card in items" :key="card" class="bg-gray-100 rounded-xl px-3 py-6 w-full text-left">
-                <h1 class="text-xl break-words  text-textBlack font-bold">{{ card.title }}</h1>
-                <p class="text-normal break-words text-textBlack ">{{ card.desc }}</p>
+        <div class="max-w-5xl mx-auto grid xl:hidden md:grid-cols-3 xs:grid-cols-2 grid-cols-1 mt-12 gap-4 px-4 sm:px-12">
+            <div v-for="card in items" :key="card" class="bg-gray-100 rounded-xl px-3 py-6 w-full text-left flex flex-col justify-between">
+                <div>
+                    <a target="_blank" :href="card.link" class="text-xl hover:underline break-words text-textBlack font-bold">{{ card.title }}</a>
+                    <p class="text-normal break-words text-textBlack ">{{ card.desc }}</p>
+                </div>
+                <img :src="'src/assets/' + card.img"  alt="" class=" relative block select-none scale-75    " :class="['left-'+card.position.x, 'top-'+card.position.y]"/>
             </div>
+            <!-- {{card.img}} -->
         </div>
     </div>
 </template>
@@ -59,6 +63,7 @@ export default {
                     title: 'Loadly',
                     desc: 'Revolutionizing Freight.',
                     img: 'load_list.svg',
+                    link: 'https://www.loadly.ca',
                     scale: '1.9',
                     position: {
                         x: '20',
@@ -69,6 +74,7 @@ export default {
                     title: 'AI Driving', 
                     desc: 'Neural Network Research.',
                     img:'unity.svg',
+                    link: 'https://github.com/bigboydeku/Self-Driving',
                     scale: '1',
                     position: {
                         x: '0',
@@ -79,6 +85,7 @@ export default {
                     title: 'Pokemall', 
                     desc: 'A modern wiki for a classic world.',
                     img:'pokemall.png',
+                    link: 'https://github.com/bigboydeku/pokemall',
                     scale: '2',
                     position: {
                         x: '',
@@ -89,6 +96,7 @@ export default {
                     title: 'Googler', 
                     desc: 'UWindsor\'s Google DSC helper.',
                     img:'googler.png',
+                    link: 'https://gdsc.community.dev/university-of-windsor/',
                     scale: '1.3',
                     position: {
                         x: '0',
@@ -99,6 +107,7 @@ export default {
                     title: 'Pokebattles', 
                     desc: 'Java sockets and pokemon.',
                     img:'pokemon.svg',
+                    link: 'https://github.com/bigboydeku/Pokemon-Server',
                     scale: '',
                     position: {
                         x: '',
@@ -109,6 +118,7 @@ export default {
                     title: 'Wizard\'s Hat', 
                     desc: 'A Unity 2.5D Sidescroller Adventure.',
                     img:'wizard.png',
+                    link: 'https://github.com/bigboydeku/The-Wizards-Hat',
                     scale: '',
                     position: {
                         x: '',
@@ -119,6 +129,7 @@ export default {
                     title: 'WinBot', 
                     desc: 'A Hackathon Bot.',
                     img:'winhacks.png',
+                    link: 'https://github.com/bigboydeku/winhacks-bot',
                     scale: '2',
                     position: {
                         x: '',
@@ -129,6 +140,7 @@ export default {
                     title: 'Border Bot', 
                     desc: 'An even better hackathon bot.',
                     img:'bh.png',
+                    link: 'https://www.borderhacks.com/',
                     scale: '2',
                     position: {
                         x: '',
@@ -139,6 +151,7 @@ export default {
                     title: 'Pokemon', 
                     desc: 'My first coding project from highschool.',
                     img:'python.jpg',
+                    link: 'https://github.com/bigboydeku/Pokemon-on-Python',
                     scale: '',
                     position: {
                         x: '',

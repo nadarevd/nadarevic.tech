@@ -22,7 +22,7 @@
           <div class="px-8 py-12 lg:aspect-square aspect-auto rounded-[18px] text-left bg-white k">
             <div class="w-full sm:px-4 flex flex-col justify-between h-full">
               <h1
-                  class=" bg-clip-text text-center bg-gradient-to-r from-[#ae54cb] to-[#3997d2] font-extrabold text-transparent text-3xl lg:text-4xl">
+                  class=" bg-clip-text bg-gradient-to-r from-[#ae54cb] to-[#3997d2] font-extrabold text-transparent text-3xl lg:text-4xl">
                   Here's more info about Denis N</h1>
               <p class="break-words mt-3 text-md leading-6 text-textGray">
                 The 2020 pandemic was my opportunity to fulfill my passion, learning how to professionally develop
@@ -56,8 +56,8 @@
         <div class="grid grid-cols-1" v-motion :initial="{opacity: 0,y: 100,}" :visible="{opacity: 1,y: 0, transition: { duration: 400 } }">
           <div class="rounded-[18px] text-left bg-white">
             <div class="w-full flex flex-col justify-between h-full">
-              <div class="relative overflow-x-auto  rounded-[18px] text-left">
-                <table class="w-full text-sm text-left text-gray-500 overflow-hidden">
+              <div class="relative overflow-hidden  rounded-[18px] text-left">
+                <table class="w-full h-auto text-sm text-left text-gray-500">
                   <thead class="text-xs text-gray-400 uppercase bg-gray-50">
                     <tr>
                       <th scope="col" class="px-12 pt-6 pb-3">Time</th>
