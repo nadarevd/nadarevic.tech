@@ -9,7 +9,7 @@
                     <span class="inline-flex items-center flex-row">
                         <p>I am currently working as a UX/UI Designer for </p>
                         <div class="inline-flex flex-row items-center space-x-1 mx-2">
-                            <img src="../assets/loadly_icon.svg" class="w-4 h-4" alt="">
+                            <img src="/assets/loadly_icon.svg" class="w-4 h-4" alt="">
                             <a class="text-[#363e7d] hover:underline" href="https://loadly.ca">Loadly</a>
                         </div>
                     </span>

@@ -27,7 +27,7 @@
               <p class="break-words mt-3 text-md leading-6 text-textGray">
                 The 2020 pandemic was my opportunity to fulfill my passion, learning how to professionally develop
                 software while working with a logistics start-up to create industry-changing software. </p>
-              <img src="../assets/loadly.svg" alt="" class="py-5 max-w-xs mx-auto">
+              <img src="/assets/loadly.svg" alt="" class="py-5 max-w-xs mx-auto">
             </div>
           </div>
         </div>

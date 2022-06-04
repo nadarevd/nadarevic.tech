@@ -7,7 +7,7 @@
         <!-- Carousel -->
         <carousel :items-to-show="4" class="mt-12 2xl:flex mx-auto hidden w-full justify-center">
             <slide class="select-none first:ml-[50%]  mx-3 flex flex-col !w-64" v-for="card in items" :key="card">
-                <div :style="{ backgroundImage: 'url(' + 'src/assets/' + card.img + ')' }" class=" bg-cover rounded-xl px-4 py-6 xl:w-64 lg:w-56 h-44 text-left  flex flex-col justify-between overflow-hidden" >
+                <div :style="{ backgroundImage: 'url(' + '/assets/' + card.img + ')' }" class=" bg-cover rounded-xl px-4 py-6 xl:w-64 lg:w-56 h-44 text-left  flex flex-col justify-between overflow-hidden" >
                     <div :style="{color: card.text_color}">
                         <a :href="card.link" target="_blank"  :class="['!text-[' + card.text_color + ']']" class="hover:underline text-xl break-words  font-bold hover:underline transition-all" >{{ card.title }}</a>
                         <p :class="['!text-[' + card.text_color + ']']" class="text-normal break-words ">{{ card.desc }}</p>
@@ -18,7 +18,7 @@
 
         <carousel :items-to-show="3.5" class="mt-12 2xl:hidden xl:flex hidden mx-auto w-full justify-center">
             <slide class="select-none first:ml-[50%]  mx-3 flex flex-col !w-64" v-for="card in items" :key="card">
-                <div :style="{ backgroundImage: 'url(' + 'src/assets/' + card.img + ')' }" :class="['bg-[' + card.color + ']' ]" class="bg-cover rounded-xl px-4 py-6 xl:w-64 lg:w-56 h-44 text-left  flex flex-col justify-between overflow-hidden" >
+                <div :style="{ backgroundImage: 'url(' + '/assets/' + card.img + ')' }" :class="['bg-[' + card.color + ']' ]" class="bg-cover rounded-xl px-4 py-6 xl:w-64 lg:w-56 h-44 text-left  flex flex-col justify-between overflow-hidden" >
                     <div :style="{color: card.text_color}">
                         <a :href="card.link" target="_blank"  class="text-xl break-words  font-bold hover:underline">{{ card.title }}</a>
                         <p class="text-normal break-words ">{{ card.desc }}</p>
@@ -28,7 +28,7 @@
         </carousel>
 
         <div class="grid xl:hidden grid-cols-2 sm:grid-cols-4 mt-12 gap-4 px-4 sm:px-12">
-            <a v-for="card in items" :key="card" class="bg-gray-100 rounded-xl px-3 py-6 w-full text-left" :style="{ backgroundImage: 'url(' + 'src/assets/' + card.img + ')' }">
+            <a v-for="card in items" :key="card" class="bg-gray-100 rounded-xl px-3 py-6 w-full text-left" :style="{ backgroundImage: 'url(' + '/assets/' + card.img + ')' }">
                 <div>
                     <a :href="card.link" :style="{color: card.text_color}" target="_blank" class="hover:underline text-xl break-words  text-textBlack font-bold">{{ card.title }}</a>
                     <p :style="{color: card.text_color}" class="text-normal break-words text-textBlack ">{{ card.desc }}</p>

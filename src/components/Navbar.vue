@@ -4,7 +4,7 @@
             <div class="w-full flex items-center justify-center">
                 <div class="flex font-light items-center justify-center ">
                     <a href="#" class="text-[#d5d5d6] mx-6 hidden lg:block">
-                        <img src="../assets/logo.svg" class="w-4 h-4" alt="">
+                        <img src="/assets/logo.svg" class="w-4 h-4" alt="">
                     </a>
                     <div class="hidden lg:flex items-center">
                         <a href="#home" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6" key="Solutions">Home</a>
@@ -38,7 +38,7 @@
                     </svg>
                 </button>
                 <div class="mx-auto">
-                    <img src="../assets/logo.svg" class="w-5 h-5" alt="">
+                    <img src="/assets/logo.svg" class="w-5 h-5" alt="">
                 </div>
             </div>
             

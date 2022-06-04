@@ -13,7 +13,7 @@
                         <a :href="card.link" target="_blank" class="text-xl hover:underline break-words  text-textBlack font-bold">{{ card.title }}</a>
                         <p class="text-normal break-words text-textBlack ">{{ card.desc }}</p>
                     </div>
-                    <img :src="'src/assets/' + card.img"  alt="" class=" relative block select-none" :class="['scale-['+card.scale+']', 'left-'+card.position.x, 'top-'+card.position.y]">
+                    <img :src="'/assets/' + card.img"  alt="" class=" relative block select-none" :class="['scale-['+card.scale+']', 'left-'+card.position.x, 'top-'+card.position.y]">
                 </div>
             </slide>
         </carousel>
@@ -25,7 +25,7 @@
                         <a :href="card.link" target="_blank"  class="text-xl hover:underline break-words  text-textBlack font-bold">{{ card.title }}</a>
                         <p class="text-normal break-words text-textBlack ">{{ card.desc }}</p>
                     </div>
-                    <img :src="'src/assets/' + card.img"  alt="" class=" relative block select-none" :class="['!scale-['+card.scale+']', 'left-'+card.position.x, 'top-'+card.position.y]">
+                    <img :src="'/assets/' + card.img"  alt="" class=" relative block select-none" :class="['!scale-['+card.scale+']', 'left-'+card.position.x, 'top-'+card.position.y]">
                 </div>
             </slide>
         </carousel>
@@ -36,7 +36,7 @@
                     <a target="_blank" :href="card.link" class="text-xl hover:underline break-words text-textBlack font-bold">{{ card.title }}</a>
                     <p class="text-normal break-words text-textBlack ">{{ card.desc }}</p>
                 </div>
-                <img :src="'src/assets/' + card.img"  alt="" class=" relative block select-none scale-75    " :class="['left-'+card.position.x, 'top-'+card.position.y]"/>
+                <img :src="'/assets/' + card.img"  alt="" class=" relative block select-none scale-75    " :class="['left-'+card.position.x, 'top-'+card.position.y]"/>
             </div>
             <!-- {{card.img}} -->
         </div>
