@@ -1,10 +1,19 @@
-<template>
+<!-- <template>
   <Navbar class="fixed w-full z-50 -mt-11"></Navbar>
   <header-center class="absolute mt-11"></header-center>
   <div><HeroSection id="home"></HeroSection></div>
   <div class="bg-[#ebebec]"><AboutSection id="about" class="relative w-full" v-motion-slide-bottom></AboutSection></div>
   <div class="bg-[#ebebec]"><Projects id="projects" v-motion :initial="{opacity: 0,y: 100,}" :visible="{opacity: 1,y: 0, transition: { duration: 700 } }" ></Projects></div>
   <div class="bg-[#ebebec]"><Hobbies id="hobbies" v-motion :initial="{opacity: 0,y: 100,}" :visible="{opacity: 1,y: 0, transition: { duration: 700 } }" ></Hobbies></div>
+  <Footer></Footer>
+</template> -->
+<template>
+  <Navbar class="fixed w-full z-50 -mt-11"></Navbar>
+  <header-center class="absolute mt-11"></header-center>
+  <div><HeroSection id="home"></HeroSection></div>
+  <div class=""><AboutSection id="about" class="relative w-full"></AboutSection></div>
+  <div class="bg-[#ebebec]"><Projects id="projects" ></Projects></div>
+  <div class="bg-[#ebebec]"><Hobbies id="hobbies"></Hobbies></div>
   <Footer></Footer>
 </template>
 

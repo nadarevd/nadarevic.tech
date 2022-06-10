@@ -1,137 +1,79 @@
+<!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div class=" lg:max-w-4xl md:max-w-2xl sm:max-w-xl sm:px-0 px-4 mx-auto py-16">
-    <div class="overflow-hidden">
-      <div class="lg:container mx-auto grid gap-6">
-        <!-- Content goes here -->
-        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-          <div class="px-8 py-12 lg:aspect-square aspect-auto rounded-[18px] text-left bg-white">
-            <div class="w-full sm:px-4 flex flex-col justify-between h-full">
-              <div>
-                <h1
-                  class=" bg-clip-text bg-gradient-to-r from-[#ae54cb] to-[#3997d2] font-extrabold text-transparent text-3xl lg:text-4xl">
-                  Hey Denis,</h1>
-                <h1 class="break-words leading-6 text-textGray font-medium my-1 text-xl lg:text-2xl lg:font-semibold">
-                  tell me about yourself.</h1>
+  <div class="container mx-auto xl:px-24 py-12 hidden gridsm:block">
+    <div class="flex md:space-x-4 justify-center">
+      <div class="flex flex-col flex-none space-y-4 xl:max-w-72 max-w-64">
+        <div class="rounded-3xl bg-[#eae8ea] p-6">
+          <div class="flex flex-col">
+            <h1 class="mb-4 font-semibold break-words">24-year-old developer</h1>
+            <img src="../../public/assets/laptop.svg" alt="" class="xl:w-60 w-32  mx-auto">
+          </div>
+        </div>
+        <div class="rounded-3xl bg-[#eae8ea] p-6">
+          <div class="flex flex-col">
+            <h1 class="mb-4 font-semibold">24-year-old developer</h1>
+            <img src="../../public/assets/laptop.svg" alt="" class="xl:w-60 w-32  mx-auto">
+          </div>
+        </div>
+        <div class="rounded-3xl bg-[#eae8ea] p-6">
+          <div class="flex flex-col">
+            <h1 class="mb-4 font-semibold">24-year-old developer</h1>
+            <img src="../../public/assets/laptop.svg" alt="" class="xl:w-60 w-32  mx-auto">
+          </div>
+        </div>
+      </div>
+      <div class="flex items-start flex-col space-y-4 ">
+        <div class="flex md:space-x-4 h-32">
+          <div class="rounded-3xl bg-[#eae8ea] p-6 h-full flex flex-col justify-end">
+            <h1 class=" bg-clip-text bg-gradient-to-b from-[#5ac8fa]  to-[#194bb5] font-extrabold text-transparent 2xl:text-6xl text-4xl relative ">5</h1>
+            <p class=" font-semibold">Programming Languages</p>
+          </div>
+          <div class="rounded-3xl bg-[#eae8ea] p-6 h-full flex flex-col justify-end">
+            <div class="rounded-xl mx-auto bg-gradient-to-r p-[3px] w-full from-[#5ac8fa]  to-[#194bb5] relative">
+              <div class="flex flex-col justify-between h-full bg-[#eae8ea]  rounded-lg px-4">
+                <h1 class=" bg-clip-text bg-gradient-to-b from-[#5ac8fa]  to-[#194bb5] font-extrabold text-transparent text-3xl">Linguist</h1>
               </div>
-              <p class="break-words mt-3 pb-5 text-md  leading-6 text-textGray">
-                I’m a graduate from the University of Windsor with a degree in Business Administration and Computer
+            </div>
+            <p class=" font-semibold">5 Spoken languages</p>
+          </div>
+          <div class="rounded-3xl bg-[#eae8ea] p-6 h-full flex flex-col justify-end">
+            <img alt="" src="../../public/assets/vue.svg" class="relative 2xl:w-16 w-10 mx-auto"/>
+            <p class=" font-semibold">Favourite Framework</p>
+          </div>
+        </div>
+        <div class="h-64 w-full">
+          <div class="rounded-3xl bg-[#eae8ea] p-6 flex flex-col items-center justify-center">
+            <h1 class=" bg-clip-text bg-gradient-to-b pb-4 from-[#5ac8fa]  to-[#194bb5] font-extrabold text-transparent lg:text-5xl text-4xl relative ">Hey, I'm Denis!</h1>
+            <p class=" font-medium leading-7 max-w-xl mx-auto">I’m a graduate from the University of Windsor with a degree in Business Administration and Computer
                 Science. I’ve always had a passion for business ideation and software development; Oh, and I love
                 playing piano and playing competitive games.</p>
-            </div>
-          </div>
-          <div class="px-8 py-12 lg:aspect-square aspect-auto rounded-[18px] text-left bg-white k">
-            <div class="w-full sm:px-4 flex flex-col justify-between h-full">
-              <h1
-                  class=" bg-clip-text bg-gradient-to-r from-[#ae54cb] to-[#3997d2] font-extrabold text-transparent text-3xl lg:text-4xl">
-                  Here's more info about Denis N</h1>
-              <p class="break-words mt-3 text-md leading-6 text-textGray">
-                The 2020 pandemic was my opportunity to fulfill my passion, learning how to professionally develop
-                software while working with a logistics start-up to create industry-changing software. </p>
-              <img src="/assets/loadly.svg" alt="" class="py-5 max-w-xs mx-auto">
-            </div>
           </div>
         </div>
-        <div class="grid grid-cols-1" v-motion :initial="{opacity: 0,y: 100,}" :visible="{opacity: 1,y: 0, transition: { duration: 400 } }">
-          <div class="rounded-[18px] text-left px-12 py-8" id="gradient">
-            <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 md:space-y-0">
-              <!-- one -->
-              <div class="flex flex-col text-textBlack md:w-auto text-center md:text-left">
-                <h1 class="text-lg">Experienced in</h1>
-                <div class="flex flex-col md:flex-row">
-                  <h1 class="text-7xl font-semibold">5</h1>
-                  <h1 class="md:text-3xl text-xl w-56 font-semibold ml-0 md:ml-2">Different programming languages.</h1>
-                </div>
-              </div>
-              <!-- two -->
-              <div class="flex flex-col text-textBlack md:w-auto text-center md:text-left">
-                <h1 class="text-lg">Experienced in</h1>
-                <div class="flex flex-col md:flex-row">
-                  <h1 class="text-7xl font-semibold">15</h1>
-                  <h1 class="md:text-3xl text-xl w-56 font-semibold ml-0 md:ml-2">Powerful tools, softwares, and libraries.</h1>
-                </div>
-              </div>
-            </div>
+      </div>
+      <div class="flex flex-col flex-none space-y-4 xl:max-w-72 max-w-64">
+        <div class="rounded-3xl bg-[#eae8ea] p-6">
+          <div class="flex flex-col">
+            <h1 class=" bg-clip-text bg-gradient-to-b from-[#5ac8fa]  to-[#194bb5] font-extrabold text-transparent xl:text-2xl text-xl">Business Admin.</h1>
+            <p class="font-bold uppercase">Major</p>
           </div>
         </div>
-        <div class="grid grid-cols-1" v-motion :initial="{opacity: 0,y: 100,}" :visible="{opacity: 1,y: 0, transition: { duration: 400 } }">
-          <div class="rounded-[18px] text-left bg-white">
-            <div class="w-full flex flex-col justify-between h-full">
-              <div class="relative overflow-hidden  rounded-[18px] text-left">
-                <table class="w-full h-auto text-sm text-left text-gray-500">
-                  <thead class="text-xs text-gray-400 uppercase bg-gray-50">
-                    <tr>
-                      <th scope="col" class="px-12 pt-6 pb-3">Time</th>
-                      <th scope="col" class="px-6 pt-6 pb-3">Title</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="bg-white border-b hover:-translate-y-2 hover:scale-105 hover:shadow-md  transition-all">
-                      <th scope="row" class=" px-12 py-4 font-medium text-gray-900  whitespace-nowrap">2020-Present</th>
-                      <td class="px-6 py-4 flex flex-col has-tooltip">
-                        <h1 class="text-textBlack font-semibold">Loadly</h1>
-                        <p>Junior Developer</p>
-                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-[18px] ml-36 -mt-2'>
-                          Check out their <a href="https://www.loadly.ca/" class="text-blue-500 hover:underline">landing page</a> that I made!
-                        </span>
-                      </td>
-                    </tr>
-                    <tr class="bg-white border-b hover:-translate-y-2 hover:scale-105 hover:shadow-md transition-all">
-                      <th scope="row" class="px-12 py-4 font-medium text-gray-900  whitespace-nowrap">2021-Present</th>
-                      <td class="px-6 py-4 flex flex-col has-tooltip">
-                        <h1 class="text-textBlack font-semibold">Priority Ships</h1>
-                        <p>Logistics Broker</p>
-                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-[18px] ml-32 -mt-4'>
-                          Facilitated relationships between carriers and shippers throughout each shipment step.
-                        </span>
-                      </td>
-
-                    </tr>
-                    <tr class="bg-white border-b hover:-translate-y-2 hover:scale-105 hover:shadow-md transition-all">
-                      <th scope="row" class="px-12 py-4 font-medium text-gray-900 ewhitespace-nowrap">September–2020</th>
-                      <td class="has-tooltip px-6 py-4 flex flex-col has-tooltip">
-                        <h1 class="text-textBlack font-semibold">BorderHacks Hackathon</h1>
-                        <p>Lead Organizer</p>
-                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-[18px] ml-44 -mt-4'>
-                         Organized a digital hackathon sponsored by 
-                         <a href="https://www.investwindsoressex.com/" class="text-blue-500 hover:underline">IWE</a>, 
-                         <a href="https://www.citywindsor.ca/" class="text-blue-500 hover:underline">the City of Windsor</a>, 
-                         and many more.
-                        </span>
-                      </td>
-                    </tr>
-                    <tr class="bg-white border-b hover:-translate-y-2 hover:scale-105 hover:shadow-md transition-all">
-                      <th scope="row" class="px-12 py-4 font-medium text-gray-900 ewhitespace-nowrap">March–2020</th>
-                      <td class="has-tooltip px-6 py-4 flex flex-col has-tooltip">
-                        <h1 class="text-textBlack font-semibold">WinHacks Hackathon</h1>
-                        <p>Lead Organizer</p>
-                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-[18px] ml-44 -mt-2'>
-                         Organized UWindsor's first digital hackathon with huge success.
-                        </span>
-                      </td>
-                    </tr>
-                    <tr class="bg-white border-b hover:-translate-y-2 hover:scale-105 hover:shadow-md transition-all">
-                      <th scope="row" class="px-12 py-4 font-medium text-gray-900 ewhitespace-nowrap">2016–2018</th>
-                      <td class="has-tooltip px-6 py-4 flex flex-col">
-                        <h1 class="text-textBlack font-semibold">University of Windsor</h1>
-                        <p>Research Assistant</p>
-                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-[18px] ml-44 -mt-4'>
-                         Worked closely with a professor to write a business analysis case study
-                        </span>
-                      </td>
-                    </tr>
-                    <tr class="bg-white hover:-translate-y-2 hover:scale-105 hover:shadow-md transition-all">
-                      <th scope="row" class="px-12 py-4 font-medium text-gray-900 ewhitespace-nowrap">2015–2020</th>
-                      <td class="has-tooltip px-6 py-4 flex flex-col">
-                        <h1 class="text-textBlack font-semibold">University of Windsor</h1>
-                        <p>Undergraduate</p>
-                        <span class='tooltip px-6 py-3 text-xs bg-gray-100 text-textBlack z-30 rounded-[18px] ml-44 -mt-4'>
-                         Attended UWindsor for Business Administration & Computer Science
-                        </span>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+        <div class="rounded-3xl bg-[#eae8ea] p-6 ">
+          <div class="flex flex-col">
+            <h1 class=" bg-clip-text bg-gradient-to-b from-[#5ac8fa]  to-[#194bb5] font-extrabold text-transparent xl:text-2xl text-xl">Computer Sci.</h1>
+            <p class="font-bold uppercase">Major</p>
+          </div>
+        </div>
+        <div class="flex space-x-4 xl:w-72 w-64">
+          <div class="rounded-3xl bg-[#eae8ea] p-6 xl:w-36 w-32">
+            <div class="flex flex-col">
+              <h1 class=" bg-clip-text bg-gradient-to-b from-[#5ac8fa]  to-[#194bb5] font-extrabold text-transparent xl:text-2xl text-xl">25</h1>
+              <p class="font-bold uppercase">Major</p>
+            </div>
+          </div>
+          <div class="rounded-3xl bg-[#eae8ea] p-6 xl:w-36 w-32">
+            <div class="flex flex-col">
+              <h1 class=" bg-clip-text bg-gradient-to-b from-[#5ac8fa]  to-[#194bb5] font-extrabold text-transparent xl:text-2xl text-xl">50+</h1>
+              <p class="font-bold uppercase">Major</p>
             </div>
           </div>
         </div>
@@ -139,12 +81,6 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-
-}
-</script>
 
 <style>
 #gradient {
