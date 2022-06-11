@@ -20,7 +20,7 @@
                     </div>
                   </div>
                   <div class="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
-                      <img src="/assets/laptop.svg" alt="" class="xl:max-w-xl lg:max-w-md md:max-w-xl sm:max-w-xl mx-auto ">
+                      <img src="/assets/macbook.png" alt="" class="xl:max-w-xl lg:max-w-md md:max-w-xl sm:max-w-xl mx-auto ">
                   </div>
                 </div>
               </div>
