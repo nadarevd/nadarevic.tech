@@ -101,7 +101,7 @@
             <h1 class=" bg-clip-text bg-gradient-to-b from-[#5ac8fa]  to-[#2e307d] font-extrabold text-transparent text-4xl">Love</h1>
             <p class="font-bold uppercase">Designing</p>
           </div>
-          <img src="../../public/assets/iPhone 13.svg" class="h-[30rem] relative top-4" alt="">
+          <img src="../../public/assets/iPhone13.svg" class="h-[30rem] relative top-4" alt="">
         </div>
       </div>
     </div>
