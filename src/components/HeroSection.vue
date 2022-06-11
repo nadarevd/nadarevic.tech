@@ -15,7 +15,7 @@
                       </p>
                       <button class="rounded-3xl bg-[#13c3ff] ] px-3 py-2 mt-6 flex items-center mx-auto lg:mx-0 space-x-3 hover:scale-105 transition-all">
                           <img src="/assets/kofi.png" alt="" class="w-7 h-7">
-                          <a href="https://ko-fi.com/nadarevic" class="text-white">Buy me a Kofi</a>
+                          <a href="https://ko-fi.com/nadarevic" target="_blank" class="text-white">Buy me a Kofi</a>
                       </button>
                     </div>
                   </div>

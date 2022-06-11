@@ -17,7 +17,7 @@
                             </svg>
                             <span class='tooltip rounded p-1  text-xs bg-gray-100 text-gray-500 mt-3 -ml-4'>Contact Me</span>
                         </a>
-                        <a href="https://ko-fi.com/nadarevic" class="has-tooltip inline-block px-4 border border-transparent rounded-md text-base text-white mx-3">
+                        <a href="https://ko-fi.com/nadarevic" target="_blank" class="has-tooltip inline-block px-4 border border-transparent rounded-md text-base text-white mx-3">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="#13c3ff" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                             </svg>
@@ -54,8 +54,8 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
                             </svg>
                         </a>
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#d5d5d6" stroke-width="2">
+                        <a  href="https://ko-fi.com/nadarevic" target="_blank" >
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#13c3ff" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                             </svg>
                         </a>

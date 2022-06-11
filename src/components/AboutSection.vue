@@ -136,13 +136,13 @@
           </div>
         </div>
       <div class=" mx-auto mt-4 px-4">
-        <div class="grid gap-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1  mx-auto">
+        <div class="grid gap-4 md:grid-cols-3  grid-cols-1  mx-auto">
           <div class="rounded-3xl bg-[#eae8ea] p-6 h-full flex flex-col justify-end">
             <h1 class=" bg-clip-text bg-gradient-to-b from-[#5ac8fa]  to-[#194bb5] font-extrabold text-transparent 2xl:text-6xl text-4xl relative ">5</h1>
             <p class=" font-semibold">Programming<br>Languages</p>
           </div>
           <div class="rounded-3xl bg-[#eae8ea] p-6 h-full flex flex-col justify-end">
-            <div class="rounded-xl mx-auto bg-gradient-to-r p-[3px] w-full from-[#5ac8fa]  to-[#2e307d] relative bottom-1 md:w-full w-32">
+            <div class="rounded-xl mx-auto bg-gradient-to-r p-[3px]  from-[#5ac8fa]  to-[#2e307d] relative bottom-1 md:w-full w-32">
               <div class="flex flex-col h-full bg-[#eae8ea] rounded-lg px-4 ">
                 <h1 class=" bg-clip-text bg-gradient-to-b from-[#5ac8fa]  to-[#194bb5] font-extrabold text-transparent md:text-2xl text-xl">Linguist</h1>
               </div>

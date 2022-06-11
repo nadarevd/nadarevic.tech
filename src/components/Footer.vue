@@ -20,7 +20,7 @@
           <label for="email-address" class="sr-only">Email address</label>
         
           <div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-            <button type="submit" class="w-full bg-indigo-600 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            <button type="submit" class="w-full bg-slateGray border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slateGray">
               <a href="mailto:bosdenis@hotmail.com">Send Me an Email</a> 
             </button>
           </div>
