@@ -1,7 +1,7 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <div class="container mx-auto px-24 pb-24 hidden gridsm:block">
     <div class="flex md:space-x-4 justify-center">
+      <!-- First Column -->
       <div class="flex flex-col flex-none space-y-4 ">
         <div class="rounded-3xl bg-[#eae8ea] p-6">
           <div class="flex flex-col">
@@ -22,6 +22,7 @@
           </div>
         </div>
       </div>
+      <!-- Second Column -->
       <div class="flex items-start flex-col space-y-4 ">
         <div class="flex md:space-x-4 h-32">
           <div class="rounded-3xl bg-[#eae8ea] p-6 h-full flex flex-col justify-end">
