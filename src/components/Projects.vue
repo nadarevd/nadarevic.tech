@@ -1,5 +1,5 @@
 <template>
-    <div class="py-12 ">
+    <div v-motion-fade-visible-once class="py-12 ">
         <div class="flex flex-col">
             <h1 class="text-5xl font-bold">Projects</h1>
             <p class="text-lg font-normal mt-3 px-8">A little bit of everything about Computer Science; AI, Web
@@ -13,7 +13,7 @@
                         <a :href="card.link" target="_blank" class="text-xl hover:underline break-words  text-textBlack font-bold">{{ card.title }}</a>
                         <p class="text-normal break-words text-textBlack ">{{ card.desc }}</p>
                     </div>
-                    <img :src="'/assets/' + card.img"  alt="" class=" relative block select-none" :class="['scale-['+card.scale+']', 'left-'+card.position.x, 'top-'+card.position.y]">
+                    <img :src="'/assets/' + card.img"  alt="" class=" relative block select-none " :class="['scale-['+card.scale+']', 'left-'+card.position.x, 'top-'+card.position.y]">
                 </div>
             </slide>
         </carousel>
@@ -31,12 +31,12 @@
         </carousel>
 
         <div class="max-w-5xl mx-auto grid xl:hidden md:grid-cols-3 xs:grid-cols-2 grid-cols-1 mt-12 gap-4 px-4 sm:px-12">
-            <div v-for="card in items" :key="card" class="bg-gray-100 rounded-xl px-3 py-6 w-full text-left flex flex-col justify-between">
+            <div v-for="card in items" :key="card" class="bg-gray-100 rounded-xl px-3 py-6 w-full text-left flex flex-col justify-between h-64 overflow-hidden">
                 <div>
                     <a target="_blank" :href="card.link" class="text-xl hover:underline break-words text-textBlack font-bold">{{ card.title }}</a>
                     <p class="text-normal break-words text-textBlack ">{{ card.desc }}</p>
+                    <img :src="'/assets/' + card.img"  alt="" class="  block select-none scale-75 mx-auto relative xl:-top-12" :class="[ 'left-'+card.position.x, 'top-'+card.position.y]"/>
                 </div>
-                <img :src="'/assets/' + card.img"  alt="" class=" relative block select-none scale-75    " :class="['left-'+card.position.x, 'top-'+card.position.y]"/>
             </div>
             <!-- {{card.img}} -->
         </div>

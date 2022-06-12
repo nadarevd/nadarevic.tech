@@ -14,7 +14,7 @@
                         </div>
                     </span>
                     <span class="block sm:ml-2 sm:inline-block">
-                        <a href="#" class="text-textGrey font-bold underline"> Learn more <span aria-hidden="true">&rarr;</span></a>
+                        <a href="https://www.loadly.ca/" target="_blank" class="text-textGrey font-bold underline"> Learn more <span aria-hidden="true">&rarr;</span></a>
                     </span>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-7xl mx-auto  relative w-full py-56 ">
+    <div v-motion-fade class="max-w-7xl mx-auto  relative w-full sm:py-56 py-28 ">
         <div class="max-w-7xl mx-auto px-12">
             <main class="">
               <div class="mx-auto max-w-7xl">

@@ -1,5 +1,5 @@
 <template>
-    <div class="py-12 ">
+    <div v-motion-fade-visible-once class="py-12 ">
         <div class="flex flex-col">
             <h1 class="text-5xl font-bold">Hobbies</h1>
             <p class="text-lg font-normal mt-3 px-8">In case you want to learn more about me.</p>
