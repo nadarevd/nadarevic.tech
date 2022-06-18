@@ -7,13 +7,13 @@
                         <img src="/assets/logo.svg" class="w-4 h-4" alt="">
                     </a>
                     <div class="hidden lg:flex items-center">
-                        <a href="#home" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6" key="Solutions">Home</a>
-                        <a href="#about" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6" key="Pricing">About</a>
-                        <a href="#projects" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6" key="Docs">Projects</a>
-                        <a href="#hobbies" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6" key="Docs">Hobbies</a>
-                        <a href="https://www.borderhacks.com/" target="_blank" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6" key="Docs">BorderHacks</a>
-                        <a href="https://winhacks.ca/" target="_blank" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6" key="Docs">WinHacks</a>
-                        <a href="https://github.com/bigboydeku" target="_blank" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6" key="Docs">Github</a>
+                        <a href="#home" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6">Home</a>
+                        <a href="#about" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6">About</a>
+                        <a href="#projects" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6">Projects</a>
+                        <a href="#hobbies" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6">Hobbies</a>
+                        <a href="https://www.borderhacks.com/" target="_blank" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6">BorderHacks</a>
+                        <a href="https://winhacks.ca/" target="_blank" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6">WinHacks</a>
+                        <a href="https://github.com/bigboydeku" target="_blank" class="text-xs font-light text-[#d5d5d6] hover:text-indigo-50 mx-6">Github</a>
                         <a href="mailto:bosdenis@hotmail.com" class="has-tooltip inline-block px-4 border border-transparent rounded-md text-base text-white h-full mx-3">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="#d5d5d6" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
