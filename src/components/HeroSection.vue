@@ -14,13 +14,13 @@
                         I’m a web developer interested in a wide range of fields.
                       </p>
                       <button class="rounded-3xl bg-[#13c3ff] ] px-3 py-2 mt-6 flex items-center mx-auto lg:mx-0 space-x-3 hover:scale-105 transition-all">
-                          <img src="/assets/kofi.png" alt="" class="w-7 h-7">
+                          <img src="/assets/kofi.webp" alt="" class="w-7 h-7">
                           <a href="https://ko-fi.com/nadarevic" target="_blank" class="text-white">Buy me a Kofi</a>
                       </button>
                     </div>
                   </div>
                   <div class="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
-                      <img src="/assets/macbook.png" alt="" class="xl:max-w-xl lg:max-w-md md:max-w-xl sm:max-w-xl mx-auto ">
+                      <img src="/assets/macbook.webp" alt="" class="xl:max-w-xl lg:max-w-md md:max-w-xl sm:max-w-xl mx-auto ">
                   </div>
                 </div>
               </div>

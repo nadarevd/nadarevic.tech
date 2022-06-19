@@ -8,19 +8,19 @@
           <div class="rounded-3xl bg-[#eae8ea] p-6">
             <div class="flex flex-col">
               <h1 class="mb-4 font-semibold break-words">24-year-old developer</h1>
-              <img src="../../public/assets/macbook.png" alt="" class="w-60  mx-auto">
+              <img src="../../public/assets/macbook.webp" alt="" class="w-60  mx-auto">
             </div>
           </div>
           <div class="rounded-3xl bg-[#eae8ea] p-6">
             <div class="flex flex-col">
               <h1 class="mb-4 font-semibold">High-Achieving Graduate</h1>
-              <img src="../../public/assets/uwindsor.png" alt="" class="w-60  mx-auto">
+              <img src="../../public/assets/uwindsor.webp" alt="" class="w-60  mx-auto">
             </div>
           </div>
           <div class="rounded-3xl bg-[#eae8ea] p-6 grow">
             <div class="flex flex-col">
               <h1 class="mb-4 font-semibold">Event Coordinator</h1>
-              <img src="../../public/assets/events.png" alt="" class="w-60  mx-auto">
+              <img src="../../public/assets/events.webp" alt="" class="w-60  mx-auto">
             </div>
           </div>
         </div>
@@ -125,19 +125,19 @@
         <div  class="rounded-3xl bg-[#eae8ea] p-6">
           <div class="flex flex-col">
             <h1 class="mb-4 font-semibold break-words">24-year-old developer</h1>
-            <img src="../../public/assets/macbook.png" alt="" class="w-60 mx-auto">
+            <img src="../../public/assets/macbook.webp" alt="" class="w-60 mx-auto">
           </div>
         </div>
         <div class="rounded-3xl bg-[#eae8ea] p-6 flex flex-col">
           <div class="flex flex-col">
             <h1 class="mb-4 font-semibold">High-Achieving Graduate</h1>
-            <img src="../../public/assets/uwindsor.png" alt="" class="w-60  mx-auto mt-6">
+            <img src="../../public/assets/uwindsor.webp" alt="" class="w-60  mx-auto mt-6">
           </div>
         </div>
         <div class="rounded-3xl bg-[#eae8ea] p-6 flex flex-col">
           <div class="flex flex-col">
             <h1 class="mb-4 font-semibold">Event Coordinator</h1>
-            <img src="../../public/assets/events.png" alt="" class="w-32 mx-auto">
+            <img src="../../public/assets/events.webp" alt="" class="w-32 mx-auto">
           </div>
         </div>
       </div>

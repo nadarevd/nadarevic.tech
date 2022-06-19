@@ -84,7 +84,7 @@ export default {
                 { 
                     title: 'Pokemall', 
                     desc: 'A modern wiki for a classic world.',
-                    img:'pokemall.png',
+                    img:'pokemall.webp',
                     link: 'https://github.com/bigboydeku/pokemall',
                     scale: '2',
                     position: {
@@ -95,7 +95,7 @@ export default {
                 { 
                     title: 'Googler', 
                     desc: 'UWindsor\'s Google DSC helper.',
-                    img:'googler.png',
+                    img:'googler.webp',
                     link: 'https://gdsc.community.dev/university-of-windsor/',
                     scale: '1.3',
                     position: {
@@ -117,7 +117,7 @@ export default {
                 { 
                     title: 'Wizard\'s Hat', 
                     desc: 'A Unity 2.5D Sidescroller Adventure.',
-                    img:'wizard.png',
+                    img:'wizard.webp',
                     link: 'https://github.com/bigboydeku/The-Wizards-Hat',
                     scale: '',
                     position: {
@@ -128,7 +128,7 @@ export default {
                 { 
                     title: 'WinBot', 
                     desc: 'A Hackathon Bot.',
-                    img:'winhacks.png',
+                    img:'winhacks.webp',
                     link: 'https://github.com/bigboydeku/winhacks-bot',
                     scale: '2',
                     position: {
@@ -139,7 +139,7 @@ export default {
                 { 
                     title: 'Border Bot', 
                     desc: 'An even better hackathon bot.',
-                    img:'bh.png',
+                    img:'bh.webp',
                     link: 'https://www.borderhacks.com/',
                     scale: '2',
                     position: {
@@ -150,7 +150,7 @@ export default {
                 { 
                     title: 'Pokemon', 
                     desc: 'My first coding project from highschool.',
-                    img:'python.jpg',
+                    img:'python.webp',
                     link: 'https://github.com/bigboydeku/Pokemon-on-Python',
                     scale: '',
                     position: {
