@@ -55,7 +55,7 @@
                     <a href="https://www.borderhacks.com/" @click="navFlag = !navFlag" class="text-sm font-light py-4 text-[#d5d5d6] hover:text-indigo-50 text-left border-b border-gray-500" key="Docs">BorderHacks</a>
                     <a href="https://winhacks.ca/" @click="navFlag = !navFlag" class="text-sm font-light py-4 text-[#d5d5d6] hover:text-indigo-50 text-left border-b border-gray-500" key="Docs">WinHacks</a>
                     <a href="https://github.com/bigboydeku" target="_blank" class="text-sm font-light py-4 text-[#d5d5d6] hover:text-indigo-50 text-left border-b border-gray-500" key="Docs">Github</a>
-                    <a href="../../public/assets/files/Resume 2022.pdf" target="_blank" class="text-sm font-bold py-4 text-[#d5d5d6] hover:text-indigo-50 text-left border-b border-gray-500" key="Docs">Resume</a>
+                    <a href="../../public/assets/files/Resume 2022.pdf" download="Resume" target="_blank" class="text-sm font-bold py-4 text-[#d5d5d6] hover:text-indigo-50 text-left border-b border-gray-500" key="Docs">Resume</a>
                     <div class="flex flex-row space-x-4 py-4">
                         <a href="mailto:bosdenis@hotmail.com">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#d5d5d6" stroke-width="2">
