@@ -64,7 +64,7 @@ export default {
                     title: 'LinkedIn',
                     desc: 'Let\'s connect.',
                     img: 'linkedin.webp',
-                    link: 'https://www.backloggd.com/u/daeku/',
+                    link: 'https://www.linkedin.com/in/nadarevd/',
                     text_color: '#fff',
                 },
                 {
